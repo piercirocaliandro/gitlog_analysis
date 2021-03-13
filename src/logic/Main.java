@@ -1,7 +1,9 @@
 package logic;
+import logic.DummyClass;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello World !");
+		DummyClass dc = new DummyClass();
+		dc.dummyMethod();
 	}
 }
